@@ -70,4 +70,41 @@
 
 ## Repeated Fields
 
-3-4
+![19](./images/19.png)
+
+## Comments
+
+![20](./images/20.png)
+
+## Default Values for fields
+
+![21](./images/21.png)
+
+## Enums
+
+![22](./images/22.png)
+
+-------------------
+
+# Protocol Buffers Basics
+
+## Defining Multiple Message in the same .proto file
+
+![23](./images/23.png)
+
+## Nesting Types
+
+![24](./images/24.png)
+
+## Importing Types
+
+![25](./images/25.png)
+
+## Packages
+
+![26](./images/26.png)
+
+---------------
+# setting up protoc compiler
+
+5-1

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+// full path from root of your project
+import "package/date-with-package.proto";
+
+package Person;
+
+message Person{
+    int32 age = 1;
+    string first_name = 2;
+    string last_name = 3;
+    bytes small_picture = 4;
+    bool is_profile_veritied = 5;
+    float height = 6;
+
+   utils.Date birthday = 7;
+}

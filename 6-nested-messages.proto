@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message Person{
+    int32 age = 1;
+    string first_name = 2;
+    string last_name = 3;
+    bytes small_picture = 4;
+    bool is_profile_veritied = 5;
+    float height = 6;
+
+    // type Address whitin Person(full name is Person.Address)
+    message Address{
+        string address_line_1 = 1;
+        string zip_code = 2;
+        string city = 3;
+        string country = 4;
+    }
+
+    // multiple addresses
+    repeated Address user_address = 7;
+}

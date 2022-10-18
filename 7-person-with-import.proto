@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+// full path from root of your project
+import "common/data.proto";
+
+message Person{
+    int32 age = 1;
+    string first_name = 2;
+    string last_name = 3;
+    bytes small_picture = 4;
+    bool is_profile_veritied = 5;
+    float height = 6;
+
+    Date birthday = 7;
+}

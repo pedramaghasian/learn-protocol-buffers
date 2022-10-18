@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Person {
+
+    enum EyeColor {
+        // first value is the DEFAUL value
+        UNKNOWN_EYE_COLOUR = 0;
+        EYE_GREEN = 1;
+        EYE_BLUE = 2;
+    }
+
+    EyeColor eye_colour = 1;
+}
